@@ -1,0 +1,50 @@
+Lab - Proposiciones y logica simbolica
+Nombre: Cristian Mauricio Rodriguez Cruz 	
+Carnet:	00082923
+
+Encontrar el sujeto y el predicado de las oraciones y pasarlas a logica simbolica.
+
+
+1) Si la informacion no es completa para oferentes y demandantes, hay una falla de mercado.
+
+p = La informacion es completa para oferentes y demandantes
+    sujeto: la informacion
+    predicado: es completa para oferentes y demandantes
+
+q = Hay una falla de mercado
+    sujeto: el mercado
+    predicado: tiene una falla
+
+Formula:  ~p -> q
+
+
+2) He pasado todas mis vacaciones en Grecia y Marruecos.
+
+p = He pasado todas mis vacaciones en Grecia
+    sujeto: yo (tacito)
+    predicado: he pasado todas mis vacaciones en Grecia
+
+q = He pasado todas mis vacaciones en Marruecos
+    sujeto: yo (tacito)
+    predicado: he pasado todas mis vacaciones en Marruecos
+
+Formula:  p ^ q
+
+
+3) La realidad supera a la ficcion y el no puede creerlo.
+
+p = La realidad supera a la ficcion
+    sujeto: la realidad
+    predicado: supera a la ficcion
+
+q = El puede creerlo
+    sujeto: el
+    predicado: puede creerlo
+
+Formula:  p ^ ~q
+
+
+Resumen:
+1) ~p -> q
+2) p ^ q
+3) p ^ ~q
